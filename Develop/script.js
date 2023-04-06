@@ -51,7 +51,7 @@ $(document).ready(function () {
 
 
 // Media Queries
-var x = window.matchMedia("(max-width: 560px)")
+var x = window.matchMedia("(max-width: 480px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction) // Attach listener function on state changes
 
@@ -69,13 +69,13 @@ function myFunction(x) {
         }
     }
       else {
-        document.getElementById("fSizep").style.fontSize = "23px";
-        document.getElementById("fSizeh").style.fontSize = "64px";
-        document.getElementById("currentDay").style.fontSize = "20px";
-        document.getElementById("cFields").style.fontSize = "20px";
-        document.getElementById("hour-09").style.fontSize = "16px";
+        document.getElementById("fSizep").style.fontSize = "";
+        document.getElementById("fSizeh").style.fontSize = "";
+        document.getElementById("currentDay").style.fontSize = "";
+        document.getElementById("cFields").style.fontSize = "";
+        document.getElementById("hour-09").style.fontSize = "";
         for (let i = 10; i < 18; i++) {
-            document.getElementById("hour-" + i).style.fontSize = "16px";
+            document.getElementById("hour-" + i).style.fontSize = "";
         }
 
     }

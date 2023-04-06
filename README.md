@@ -31,9 +31,9 @@ It contains notes on HTML, CSS.
 ![demo gif ](./Assets/ezgif.com-video-to-gif%20(1).gif)
 
 
-https://renansm93.github.io/Workday-Planner/
+ https://renansm93.github.io/Workday-Scheduler/
 
-https://github.com/renansm93/Workday-Planner
+https://github.com/renansm93/Workday-Scheduler
 
 ## Contributors
 
